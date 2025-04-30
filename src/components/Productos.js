@@ -6,6 +6,7 @@ const styles = {
         display: 'Flex', 
         flexDirection: 'row',
         justifyContent: 'space-between',
+        
     },
   
 };

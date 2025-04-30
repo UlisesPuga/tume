@@ -4,12 +4,16 @@ const styles = {
     layout:{
         backgroundColor: '#fff',
         color:'0A283E',
-        alingItems: 'center',
+        alignItems: 'center',
         display: 'flex',
         flexDirection:'column',
+
     },
     container: {
         width: '1200px',
+        flexWrap: 'wrap',
+        display: 'flex',
+        justifyContent:'center',
     }
 }
 class Layout extends Component {

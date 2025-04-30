@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import Productos from './components/Productos';
 import Layout from './components/Layout';
+import Navbar from './components/Navbar';
 import Tittle from './components/Tittle';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
   render () {
     return (
       <div>
+        <Navbar />
         <Layout>
           <Tittle />
         <Productos 
